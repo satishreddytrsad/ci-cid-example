@@ -30,13 +30,7 @@
 	<version>1.7</version>
 	<extensions>true</extensions>
 </plugin>
-			<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-install-plugin</artifactId>
-    <configuration>
-       <skip>true</skip>
-    </configuration>
-</plugin>
+			
 	
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
@@ -110,5 +104,6 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	
 
 </project>
